@@ -9,11 +9,8 @@ a{
 .circle-wrapper img {
     height: 150px;
 }
-
-.circle-wrapper:hover{
-    box-shadow: black;
-}
 .circle-wrapper:hover img{
+    box-shadow: 0 0 6px black;
     transition: height 1.2s;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
